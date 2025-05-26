@@ -36,6 +36,7 @@ php artisan storage:link
 php artisan serve
 
 ## API Endpoint
+Base URL: http://127.0.0.1:8000
 GET /api/posts
 
 I have added the Postman collection in the root directory of this project.
