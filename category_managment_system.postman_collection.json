@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "407e8e26-b0e4-4ef7-b734-c0d028662b76",
+		"name": "category_managment_system",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44974987",
+		"_collection_link": "https://shivanithakur-3129674.postman.co/workspace/Shivani-Thakur's-Workspace~150cd8a1-77ba-418d-8299-63710e9c427b/collection/44974987-407e8e26-b0e4-4ef7-b734-c0d028662b76?action=share&source=collection_link&creator=44974987"
+	},
+	"item": [
+		{
+			"name": "get posts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/posts",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"posts"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
